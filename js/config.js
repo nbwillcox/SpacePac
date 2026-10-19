@@ -50,6 +50,8 @@
     } catch (e) { /* ignore */ }
   };
   if (!hadSaved && window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) S.reduced = true;
+  const qp = new URLSearchParams(location.search);
+  G.debug = { level: parseInt(qp.get('level'), 10) || 0, god: qp.get('god') === '1' };
   G.C = C;
   G.settings = S;
 })((window.SGS = window.SGS || {}));

@@ -10,7 +10,6 @@
   const bctx = [b1.getContext('2d'), b2.getContext('2d'), b3.getContext('2d')];
   const view = (G.view = { ox: 0, oy: 0, s: 1, w: 0, h: 0, dpr: 1, ps: 1, rs: 1 });
   const params = new URLSearchParams(location.search);
-  G.debug = { level: parseInt(params.get('level'), 10) || 0, god: params.get('god') === '1' };
   const bg = { stars: [], scroll: 0 };
   const M = { mode: 'title' };
   G.main = M;
