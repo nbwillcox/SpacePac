@@ -19,6 +19,10 @@ The hero keeps moving until you steer. The direction you ask for is remembered a
 
 Play in portrait. Swipe anywhere on the screen to steer: the hero keeps moving until you swipe a new direction and takes the next turn you asked for. The pause button opens the menu. The on-screen controls appear on touch devices automatically; Settings has size, opacity and a left-handed layout. Use your browser's *Add to Home Screen* to install it as a full-screen app.
 
+### Controller
+
+Plug in a gamepad and it just works: the stick or D-pad steers (the hero keeps going and takes the next turn you asked for), **Start** pauses. In menus the D-pad / left stick moves the highlight, **A** selects, **B** goes back and **Start** plays or resumes. **Settings -> Controller** has a dead-zone slider and lets you remap every button.
+
 ## Gameplay
 
 - **Goal:** eat every pellet to clear the level. Each level is a new maze: two hand-drawn ones to start, then endless generated mazes, with five neon themes in rotation.
